@@ -1,0 +1,6 @@
+.animated:active{
+  width: 30px; 
+  height: 30px;
+  transition: width .3s ease, height .3s ease;
+  animation-duration: 4s;
+}
