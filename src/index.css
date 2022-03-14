@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  padding-right: 250px;
+  padding-Left: 250px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,7 +9,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  height: 50px;
+  border-radius: 5px;
+  font-size: large;
+  width: 150px;
+  padding: 12px;
+  align-items: center;
+  background-color: #6657f5;
 }
